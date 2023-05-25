@@ -2,7 +2,7 @@
 name = "pqcrypto"
 version = "0.1.4"
 description = "Post-quantum cryptography for Python."
-authors = ["Phil Demetriou <inbox@philonas.net>", "Criptc"]
+authors = ["Phil Demetriou <inbox@philonas.net>"]
 readme = "README.md"
 license = "BSD-3-Clause"
 packages = [{ include = "pqcrypto" }]
