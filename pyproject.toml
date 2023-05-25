@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "pqcrypto"
-version = "0.1.3"
+version = "0.1.4"
 description = "Post-quantum cryptography for Python."
-authors = ["Phil Demetriou <inbox@philonas.net>"]
+authors = ["Phil Demetriou <inbox@philonas.net>", "Criptc"]
 readme = "README.md"
 license = "BSD-3-Clause"
 packages = [{ include = "pqcrypto" }]
-build = "extend.py"
+build = "compile.py"
 include = ["algorithms.py", "compile.py", "extend.py", "sources/**/*", "LICENSE"]
 repository = "https://github.com/kpdemetriou/pqcrypto"
 classifiers = [
