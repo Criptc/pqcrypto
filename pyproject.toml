@@ -6,7 +6,7 @@ authors = ["Phil Demetriou <inbox@philonas.net>"]
 readme = "README.md"
 license = "BSD-3-Clause"
 packages = [{ include = "pqcrypto" }]
-build = "compile.py"
+build = "extend.py"
 include = ["algorithms.py", "compile.py", "extend.py", "sources/**/*", "LICENSE"]
 repository = "https://github.com/kpdemetriou/pqcrypto"
 classifiers = [
